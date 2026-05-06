@@ -15,6 +15,11 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
+# Next.js 자동 생성 파일
+next-env.d.ts
+*.tsbuildinfo
+.vercel
+
 # ===== Python / FastAPI =====
 __pycache__/
 *.py[cod]
@@ -22,8 +27,6 @@ __pycache__/
 *.so
 *.egg
 *.egg-info/
-dist/
-build/
 venv/
 env/
 .venv/
@@ -35,7 +38,6 @@ pip-log.txt
 *.db
 
 # ===== IDE & OS =====
-.vscode/
 .idea/
 .DS_Store
 Thumbs.db
